@@ -8,10 +8,16 @@
 
 <div>
   <h3>Click here for a new task.</h3>
-  <button></button>
+  <button onclick="myFunction()">Click me</button>
 </div>
 
 
 <script>
-  function
+  $(document).ready(function(){
+
+    function myFunction(){
+      alert("Test!");
+    }
+
+});
 </script>
