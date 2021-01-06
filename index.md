@@ -14,10 +14,8 @@
 
 <script>
   $(document).ready(function(){
-
     function myFunction(){
       alert("Test!");
     }
-
-});
+  });
 </script>
